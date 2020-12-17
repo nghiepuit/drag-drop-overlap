@@ -1,0 +1,22 @@
+.root {
+  margin: 10rem;
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  border: solid 3px #000;
+  width: 30rem;
+  height: 30rem;
+  margin-right: 100px;
+}
+
+.circle {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: green;
+  &--overlap {
+    background-color: red;
+  }
+}
